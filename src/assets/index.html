@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../views/menuHamburg.css">
+    <link rel="stylesheet" href="../views/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
+    <link rel="icon" href="../../public/hojas.png">
+    <title>Demi Productos</title>
+</head>
+<body>
+    <header>
+        <div id="logo__content">
+            <a href="#inicio">
+                <img src="../../public/hojas.png" alt="hojas">
+                <h1>Demi Productos</h1>
+            </a>
+        </div>
+        <div class="hamburger">
+            <div class="_layer -top"></div>
+            <div class="_layer -mid"></div>
+            <div class="_layer -bottom"></div>
+        </div>
+        <nav>
+            <ul class="header__list menuppal" id="hamburgerList">
+                <li class="header__item"><a href="#inicio" onclick="cerrar()">INICIO</a></li>
+                <li class="header__item"><a href="#productos" onclick="cerrar()">PRODUCTOS</a></li>
+                <li class="header__item"><a href="#metPago" onclick="cerrar()">MÉTODO DE PAGO</a></li>
+                <li class="header__item"><a href="#reparto" onclick="cerrar()">REPARTO A DOMICILIO</a></li>
+                <!-- <li class="header__item"><a href="#recetas">RECETAS</a></li>
+                <li class="header__item"><a href="#contacto">CONTACTO</a></li> -->
+            </ul>   
+        </nav>
+        <nav>
+            <ul class="header__list" id="menuList">
+                <li class="header__item"><a class="selectHamburg" href="#inicio">INICIO</ac></li>
+                <li class="header__item"><a class="selectHamburg" href="#productos">PRODUCTOS</a></li>
+                <li class="header__item"><a class="selectHamburg" href="#metPago">MÉTODO DE PAGO</a></li>
+                <li class="header__item"><a class="selectHamburg" href="#reparto">REPARTO A DOMICILIO</a></li>
+                <!-- <li class="header__item"><a href="#recetas">RECETAS</a></li>
+                <li class="header__item"><a href="#contacto">CONTACTO</a></li> -->
+            </ul>   
+        </nav>
+    </header>
+
+    <main>
+        <div id="inicio">
+            <h2>Todos nuestros productos son de la temporada y más alta calidad</h2>            
+        </div>
+        <div id="productos">
+            <h2>Productos</h2>
+            <div class="bloque">
+                <a class="linkProductos" href="">
+                    <div class="card__producto">
+                        <img src="../../public/lenteja.jpg" alt="producto" style="width:300px">
+                        <div class="container">
+                            <h4>Lentejas</h4> 
+                            <p>$3.000 Kg</p> 
+                        </div>
+                    </div>
+                </a>
+                <div class="card__producto">
+                    <img src="../../public/garbanzo.jpg" alt="producto" style="width:300px">
+                    <div class="container">
+                        <h4>Garbanzos</h4> 
+                        <p>$3.000 Kg</p> 
+                    </div>
+                </div>
+                <div class="card__producto">
+                    <img src="../../public/poroto-cimarron.jpeg" alt="producto" style="width:300px">
+                    <div class="container">
+                        <h4>Porotos cimarrón</h4> 
+                        <p>$3.000 Kg</p> 
+                    </div>
+                </div>
+                <div class="card__producto">
+                    <img src="../../public/poroto-tortola.jpg" alt="producto" style="width:300px">
+                    <div class="container">
+                        <h4>Porotos tortola (burro)</h4> 
+                        <p>$3.000 Kg</p> 
+                    </div>
+                </div>
+                <div class="card__producto">
+                    <img src="../../public/poroto-espanol.jpeg" alt="producto" style="width:300px">
+                    <div class="container">
+                        <h4>Porotos blancos (español)</h4> 
+                        <p>$3.000 Kg</p> 
+                    </div>
+                </div>
+                <div class="card__producto">
+                    <img src="../../public/poroto-rojo.jpg" alt="producto" style="width:300px">
+                    <div class="container">
+                        <h4>Porotos rojos</h4> 
+                        <p>$3.000 Kg</p> 
+                    </div>
+                </div>
+                <div class="card__producto">
+                    <img src="../../public/poroto-negro.jpg" alt="producto" style="width:300px">
+                    <div class="container">
+                        <h4>Porotos negros</h4> 
+                        <p>$3.000 Kg</p> 
+                    </div>
+                </div>
+                <div class="card__producto">
+                    <img src="../../public/poroto-pelado.jpg" alt="producto" style="width:300px">
+                    <div class="container">
+                        <h4>Porotos pelados</h4> 
+                        <p>$3.000 Kg</p> 
+                    </div>
+                </div>
+                <div class="card__producto">
+                    <img src="../../public/semilla-maiz.jpg" alt="producto" style="width:300px">
+                    <div class="container">
+                        <h4>Maíz para palomitas</h4> 
+                        <p>$3.000 Kg</p> 
+                    </div>
+                </div>
+                <div class="card__producto">
+                    <img src="../../public/arveja-pelada.png" alt="producto" style="width:300px">
+                    <div class="container">
+                        <h4>Arvejas peladas</h4> 
+                        <p>$3.000 Kg</p> 
+                    </div>
+                </div>
+                <div class="card__producto">
+                    <img src="../../public/chuchoca.png" alt="producto" style="width:300px">
+                    <div class="container">
+                        <h4>Chuchoca</h4> 
+                        <p>$2.000 Kg</p> 
+                    </div>
+                </div>
+                <div class="card__producto">
+                    <img src="../../public/contenedor-bambu.webp" alt="producto" style="width:300px">
+                    <div class="container">
+                        <h4>Contenedor hermético con tapa de bambú 350ml</h4>
+                        <p class="sinStock">Sin Stock.</p>
+                        <p>$3.500 c/u</p> 
+                    </div>
+                </div>
+                <div class="card__producto">
+                    <img src="../../public/saquito-algodon.webp" alt="producto" style="width:300px">
+                    <div class="container">
+                        <h4>Saquito de algodón con cordón (19 x 14 cms)</h4>
+                        <p class="sinStock">Sin Stock.</p>
+                        <p>$1.000 c/u</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="metPago">
+            <h2>Método de pago</h2>
+            <p>En <strong>Demi Productos</strong> aceptamos pagos en efectivo y transferencias bancarias.</p><br>
+            <div class="metPagoBloque">
+                <div>
+                    <img src="../../public/pay2.jpg" alt="pago">
+                </div>
+                <div>
+                    <p><b>Datos para transferencias:</b></p><br>
+                    <div class="datosTransf">
+                        <p><b>Banco: </b>Banco Estado</p>
+                        <p><b>Cuenta: </b>Cuenta RUT</p>
+                        <p><b>R.U.N.: </b>17.903.068-3</p>
+                        <p><b>Nombre: </b>Erick Ortiz</p>
+                        <p><b>E-mail: </b>demi.productos@gmail.com</p>
+                        <p><b>Mensaje: </b>especificar dirección y número de contacto</p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <div id="reparto">
+            <h2>Reparto a domicilio</h2>
+            <p>En <strong>Demi Productos</strong> realizamos repartos a domicilio los días lunes, miércoles y viernes desde las 18:00 hrs. y consideramos el reparto a domicilio gratis por compras superiores a <strong>$10.000</strong> en toda nuestra gama de productos.</p><br>
+            <div class="repartoBloque">
+                <div>
+                    <p><b>Comunas de reparto:</b></p><br>
+                    <div class="comRep">
+                        <p>Maipú (Ciudad Satélite)</p>
+                        <p>Padre Hurtado</p>
+                        <p>Peñaflor</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="../../public/delivery2.jpg" alt="repartidor">
+                </div>                
+            </div>             
+        </div>
+        <!-- <div id="recetas"></div>
+        <div id="contacto">
+            <div class="capaContacto">
+                <h2>Contacto</h2>
+                <div class="contactoBloque">
+                    <div class="contenedor-formulario">
+                        <form>
+                            <img src="../../public/contacto1.jpg" alt="contacto">
+                            <input class="campo-texto" id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre" maxlength="20" required/>
+                            <input class="campo-texto" id="email" type="email" name="email" placeholder="Ingrese su e-mail" maxlength="50" required/>
+                            <textarea class="campo-texto" id="mensaje" rows="4" cols="30" placeholder="Mensaje" required></textarea>
+                            <input type="reset" value="Limpiar" class="borrar"/>
+                            <input type="submit" value="Enviar" class="submit"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </main>
+    <footer>
+        <img src="../../public/hojas.png" alt="hojas">
+        <h2>Demi Productos</h2>
+        <h3>&copy 2023. Todos los derechos reservados.</h3>
+        <h3>Desarrollado por: DDT Digital Dev & Tech</h3>
+    </footer>
+</body>
+<script src="../app/app.js"></script>
+</html>
