@@ -310,7 +310,7 @@ main {
 
 #contacto {
     height: 100vh;
-    background-image: url(../../frijoles-mezclados.jpg);
+    background-image: url(/public/frijoles-mezclados.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
