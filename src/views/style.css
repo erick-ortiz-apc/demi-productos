@@ -158,6 +158,10 @@ main {
     text-align: center;
 }
 
+#productos p {
+    padding-bottom: 2rem;
+}
+
 #productos h2 {
     font-style: italic;
     font-family: 'Fira Sans', sans-serif;
